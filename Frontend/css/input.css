@@ -1,4 +1,4 @@
-.table {
+/* .table {
     margin-left: 319px;
     width: 100%;
     border-collapse: collapse;
@@ -50,4 +50,15 @@ margin-top: 8px;
     height: 35px;
     margin-top: -37px;
     margin-left: 162px;
-}
+} */
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+

@@ -1,3 +1,4 @@
+
 console.log('script is loaded');
 //currentPage: Tracks the current page number for pagination (starts at 1).
 let currentPage = 1;

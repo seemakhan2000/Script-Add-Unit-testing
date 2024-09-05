@@ -3,7 +3,6 @@ import { User } from "./script";
 import { app } from "./script";
 //The supertest library is required to perform HTTP assertions on the Express application (app).
 const request = require("supertest");
-
 // Mock console methods
 //Mocking Console Methods: Before all tests run, this code mocks the console.log, console.warn, and console.error methods.
 beforeAll(() => {
@@ -14,7 +13,6 @@ beforeAll(() => {
     error: jest.fn(),
   };
 });
-
 // Mock User model methods
 //jest.mock("./script"): This tells Jest to mock the ./script module
 jest.mock("./script", () => {
@@ -209,3 +207,31 @@ describe("API Tests", () => {
     expect(res.body.message).toMatch(/Deleted/);
   });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
